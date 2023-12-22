@@ -1,0 +1,54 @@
+To run the application
+step 1)Set Up a Web Server:
+You need a web server to serve your HTML, CSS, and JavaScript files. You can use software like Apache, Nginx, or even tools like XAMPP or WampServer that include both Apache and MySQL.
+step 2)Create Project Folder:
+Organize your project files into a folder. 
+/language-learning-game
+    /css
+        style.css
+    /js
+        script.js
+    /php
+        config.php
+        functions.php
+        index.php
+        quiz.php
+    /images
+    index.html
+    leaderboard.html
+    profile.html
+step 3) To run this files
+ /language-learning-game project, you'll need to set up a local web server environment. Below are the steps assuming you have PHP installed and are using a simple server setup.
+
+1)Set Up a Local Server:
+
+If you have PHP installed on your machine, you can use the built-in PHP development server. Open a terminal or command prompt, navigate to your project folder (/language-learning-game), and run the following command:
+
+
+php -S localhost:8000
+This starts a PHP development server, and your project will be accessible at http://localhost:8000.
+
+2)Access Your Application:
+
+Open your web browser and navigate to http://localhost:8000. You should see the directory listing. Click on index.html to view your Language Learning Game.
+
+3)Navigate to Other Pages:
+
+If you have multiple HTML pages (e.g., leaderboard.html, profile.html), you can navigate to them by typing their names in the URL, like http://localhost:8000/leaderboard.html or http://localhost:8000/profile.html.
+
+4)Interact with PHP Files:
+
+The PHP files (config.php, functions.php, index.php, quiz.php) will be processed by the PHP server when they are accessed through your browser. Ensure that your PHP server is running during this process.
+
+For index.php, navigate to http://localhost:8000/index.php.
+For quiz.php, navigate to http://localhost:8000/php/quiz.php.
+
+5)Modify and Experiment:
+
+Feel free to modify the HTML, CSS, JavaScript, and PHP files based on your requirements. Remember to refresh your browser after making changes to see the updates.
+
+6)Inspect the Console and Network Tab:
+
+Open the browser's developer tools (usually by pressing F12 or right-clicking and selecting "Inspect") and navigate to the "Console" and "Network" tabs. This is where you can see JavaScript console logs, errors, and network requests.
+
+Remember, this setup is suitable for development purposes. For a production environment, you would typically use a more robust web server like Apache or Nginx and possibly a database server like MySQL. If you encounter any issues, ensure that PHP is installed and properly configured on your machine.

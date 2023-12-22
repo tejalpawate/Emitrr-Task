@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Language Learning Game</title>
+</head>
+<!-- Instructions for the Quiz -->
+<body>
+    <header>
+        <h1>Language Learning Game</h1>
+    </header>
+    <h3>Quiz Instructions:</h3>
+    <ul>
+        <li>This quiz will test your language proficiency.</li>
+        <li>Choose the correct translation for each given word or phrase.</li>
+        <li>Click the "Submit Answer" button to submit your choice.</li>
+        <li>Your score will be displayed at the end of the quiz.</li>
+    </ul>
+</div>
+    <main>
+        <section id="language-selection">
+            <h2>Language Selection</h2>
+            <label for="language">Choose a Language:</label>
+            <select id="language">
+                <option value="english">English</option>
+                <option value="spanish">Spanish</option>
+                <!-- Add more language options as needed -->
+            </select>
+            <button id="start-game-btn">Start Game</button>
+        </section>
+
+        <section id="quiz">
+            <h2>Quiz</h2>
+            <div id="question-container">
+                <!-- Quiz question and options go here -->
+                <p id="question-text">Translate the word: Hello</p>
+                <label><input type="radio" name="answer" value="option1"> Hola</label>
+                <label><input type="radio" name="answer" value="option2"> Bonjour</label>
+                <!-- Add more options as needed -->
+                <button id="submit-answer-btn">Submit Answer</button>
+            </div>
+        </section>
+
+        <section id="leaderboard">
+            <h2>Leaderboard</h2>
+            <ol>
+                <li>User1 - Score: 100</li>
+                <li>User2 - Score: 90</li>
+                <!-- Add more leaderboard entries as needed -->
+            </ol>
+        </section>
+
+        <section id="profile">
+            <h2>User Profile</h2>
+            <p>Username: <span id="username">Tejal Pawate</span></p>
+            <p>Email: <span id="email">tejalpawate333@gmail.com</span></p>
+            <p>Proficiency Level: <span id="proficiency-level">Intermediate</span></p>
+        </section>
+    </main>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
